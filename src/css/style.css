@@ -1,0 +1,28 @@
+.cards {
+  display: flex;
+  align-items: center;
+  align-content: space-between; 
+  justify-content: space-between;
+}
+
+body {
+  color: #999;
+  justify-content: center;
+  display: flex;
+}
+
+disabled {
+  opacity: 0.3;
+}
+
+.valid {
+  border: 2px solid green;
+};
+
+.invalid {
+  border: 2px solid red;
+}
+
+.error_card, .valid_card {
+  display: none;
+}

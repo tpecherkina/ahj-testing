@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AHJ-4</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <main class="checkCard">
+  <h3>Check your credit card number</h3>
+  <div class="cards">
+  <div class="card"><img src="./img/visa.png" class="image visa disabled">
+  </div>
+  <div class="card"><img src="./img/mastercard.png" class="image master disabled">
+  </div>
+  <div class="card"><img src="./img/maestro.png" class="image maestro disabled">
+  </div>
+  <div class="card"><img src="./img/dc.png" class="image dc disabled">
+  </div>
+</div>
+  <form id="form" class="form-validate">
+    <div class="form-group">
+    <input class="form-control" id="card_number" name="card_number" type="text" placeholder="card number">
+    <button id="submitbtn" class="btn btn-success" type="button">Click to Validate</a>
+    </div>
+    </form>
+    <div class="error_card">Номер карты НЕверный</div>
+    <div class="valid_card">Номер карты верный</div>
+
+  </main>
+  <script src="./js/checkNumber.js"></script>
+  <script src="./js/checkPaymentSystem.js"></script>
+  <script src="./js/checkValidity.js"></script>
+  </script>
+</body>
+
+</html>
