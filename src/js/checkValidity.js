@@ -1,5 +1,5 @@
 import checkNumber from './checkNumber';
-import checkPaymentSystem from './checkPaymentSystem';
+import checkPaymentSystem from './typeCard';
 
 const cardInput = document.getElementsByClassName('form-control')[0];
 const btnValidate = document.getElementsByClassName('btn-success')[0];

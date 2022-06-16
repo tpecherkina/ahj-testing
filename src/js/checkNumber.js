@@ -1,5 +1,4 @@
 export default function checkNumber(cardNum) {
-  // const reverseCard = cardNum.reverse()
   if (cardNum.length !== 16) {
     return false;
   }
