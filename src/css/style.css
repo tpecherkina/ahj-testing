@@ -11,13 +11,13 @@ body {
   display: flex;
 }
 
-disabled {
+.disabled {
   opacity: 0.3;
 }
 
 .valid {
   border: 2px solid green;
-};
+}
 
 .invalid {
   border: 2px solid red;

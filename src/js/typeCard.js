@@ -1,4 +1,4 @@
-export default function checkPaymentSystem(cardNum) {
+export default function typeCard(cardNum) {
   const arrMaster = ['1', '2', '3', '4', '5'];
   const arrMaestro = ['0', '6', '7', '8'];
   if (cardNum[0] === '2') {

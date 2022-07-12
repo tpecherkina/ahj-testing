@@ -1,5 +1,5 @@
 import checkNumber from './checkNumber';
-import checkPaymentSystem from './typeCard';
+import typeCard from './typeCard';
 
 const cardInput = document.getElementsByClassName('form-control')[0];
 const btnValidate = document.getElementsByClassName('btn-success')[0];
@@ -10,7 +10,7 @@ const validMess = document.getElementsByClassName('valid_card')[0];
 cardInput.addEventListener('input', () => {
   errorMess.style.display = 'none';
   validMess.style.display = 'none';
-  const result = checkPaymentSystem(cardInput.value);
+  const result = typeCard(cardInput.value);
   if (result) {
     cards.forEach((card) => {
       if (card.classList.contains(result)) {
